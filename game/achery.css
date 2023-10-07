@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: monospace sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(216, 245, 245);
+}
+#mainContainer{
+    transform-origin: 0% 0%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: blanchedalmond;
+}
+h1{
+    color: aquamarine;
+}
+#score{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: #45f;
+}
+#showPoint{
+    position: absolute;
+    background: transparent;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+#showPoint .u{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 70%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    transition: top 0.1s linear, left o.1s linear;
+}
+#animCanvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-bottom: 1px solid blue;
+}
+#arrs{
+    font-size: 38px;
+    text-align: left;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    padding-left: 10px;
+    color: rgb(117, 26, 236);
+}
+#startMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+}
+#startMenu h2{
+    font-size: 25px;
+}
+#timerDiv{
+    height:8px ;
+    padding: 0;
+    border: 2px solid blue;
+    width: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    border-radius: 20px;
+}
+button{
+    background-color: skyblue;
+    border-color: aqua;
+    border-radius: 10px;
+}
+.timer{
+    height: 8px;
+    width: 0%;
+    background: red;
+    animation: countTime 4.5s linear 1;
+    animation-delay: 0.5s; 
+    border-radius: 20px;
+}
+@keyframes countTime{
+    0%{
+        width: 100%;
+        background-color: lime;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        width: 0%;
+        background-color: red;
+    }
+}

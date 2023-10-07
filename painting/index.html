@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint Project</title>
+    <link rel="stylesheet" href="paint.css">
+</head>
+<body>
+    <div id="colors">
+        <button id="black" onclick='changeColor("black")' ontouchstart='changeColor("black")'></button>
+        <button id="white" onclick='changeColor("white")' ontouchstart='changeColor("white")'></button>
+        <button id="teal" onclick='changeColor("teal")' ontouchstart='changeColor("teal")'></button>
+        <button id="red" onclick='changeColor("red")' ontouchstart='changeColor("red")'></button>
+        <button id="blue" onclick='changeColor("blue")' ontouchstart='changeColor("blue")'></button>
+        <button id="green" onclick='changeColor("green")' ontouchstart='changeColor("green")'></button>
+        <button id="orange" onclick='changeColor("orange")' ontouchstart='changeColor("orange")'></button>
+        <button id="pink" onclick='changeColor("pink")' ontouchstart='changeColor("pink")'></button>
+        <button id="yellow" onclick='changeColor("yellow")' ontouchstart='changeColor("yellow")'></button>
+        <button id="brown" onclick='changeColor("brown")' ontouchstart='changeColor("brown")'></button>
+        <button id="purple" onclick='changeColor("purple")' ontouchstart='changeColor("purple")'></button>
+        <button id="grey" onclick='changeColor("grey")' ontouchstart='changeColor("grey")'></button>
+    </div>
+    <canvas id="canvas" width="1000" height="500"></canvas>
+    <div>
+        <button id="button" onclick="clearCanvas()">Clear</button>
+    </div>
+    <script src="paint.js"></script>
+</body>
+</html>

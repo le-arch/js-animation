@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <h3>COLOR PICKER<br />if you like colors give me a like <br>☆☆☆ by leonora ☆☆☆</h3>
+        <div id="rgb" onclick="getYourColor()"><h2>#000000;</h2></div>
+       
+        
+
+        <div class="color" id="divRed" style="color:red" onclick="input(x,r)">RED</div>
+        <input type="range" class="space" id="red" min="0" max="255" step="1" value="0" onchange="getColor()">
+        <div class="color" id="divGreen" style="color:green" onclick="input(y,g)">GREEN</div>
+         <input type="range" class="space" id="green" min="0" max="255" step="1" value="0" onchange="getColor()">
+         <div class="color" id="divBlue" style="color:blue" onclick="input(z,b)"> BLUE</div>
+         <input type="range" class="space" id="blue" min="0" max="255" step="1" value="0" onchange="getColor()"> 
+         <footer>
+            <marquee scrolldelay="100">
+                <h4 id="mess">
+                    <a href="#">
+                      CODE OF THE DAY ==> check out my new work
+                    </a>
+                </h4>
+            </marquee>
+        </footer>  
+        
+        <script src="color.js"></script>
+</body>
+</html>

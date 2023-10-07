@@ -1,0 +1,56 @@
+body{
+    background-color: blanchedalmond;
+}
+#canvas{
+    border: 5px solid burlywood;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    background: whitesmoke;
+}
+#colors button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 0px;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+#teal{
+    background: teal;
+}
+#pink{
+    background: pink;
+}
+#orange{
+    background: orange;
+}
+#red{
+    background: red;
+}
+#blue{
+    background: blue;
+}
+#green{
+    background: green;
+}
+#grey{
+    background: grey;
+}
+#black{
+    background: black;
+}
+#white{
+    background: white;
+}
+#brown{
+    background: brown;
+}
+#yellow{
+    background: yellow;
+}
+#purple{
+    background: purple;
+}
+

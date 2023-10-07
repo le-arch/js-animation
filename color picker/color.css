@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+body {
+  
+  text-align:center; 
+  background-color:black;
+  text-transform:capitalize;
+  font-family:'Shadows Into Light', cursive  sans-serif;
+}
+
+#rgb {
+    width:auto;
+    height:auto;
+    border-style:solid;
+    border-width:3 px;
+    border-radius:200px;
+    border-color:black;
+    background-color:#ffffff;
+    font-family: 'Poiret One', bold, sans-serif;
+}
+
+h3 {
+  background-image: webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.color{
+   width:30%;
+   font-weight: bold;
+   float:right; 
+   background-color:#FFFFFF;
+   padding-left:5px;
+   padding-right:5px;
+   margin:20px;
+   border-radius:20%;
+   margin-right:auto;
+   margin-left:auto;
+}
+.space {
+   width:90% ; 
+   height:auto ;
+   font-family: 'Poiret One', cursive, sans-serif;
+}
+#red  {
+    background:red;
+    height:5px;
+    border-style:solid;
+    border-width:1 px;
+    border-radius:200px;
+    border-color:black;
+}
+#green  {
+    background:green;
+    height:5px;
+    border-style:solid;
+    border-width:1 px;
+    border-radius:200px;
+    border-color:black;
+}
+#blue  {
+    background:blue;
+    height:5px;
+    border-style:solid;
+    border-width:1 px;
+    border-radius:200px;
+    border-color:black;
+}
+a {
+    color: rgb(57, 125, 134);
+}
